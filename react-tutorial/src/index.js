@@ -4,12 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Garage from './components/garage';
+import Header from './components/Header';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Garage/>
+    {/* <Garage/> */}
+    <Header/>
   </React.StrictMode>
 );
 
